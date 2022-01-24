@@ -30,7 +30,7 @@ export const MultipleCustomHooks = () => {
                     </blockquote>
                 )
           }
-          <button className='btn btn-primary' onClick={increment}>Siguiente ...</button>
+          <button className='btn btn-success btn-sm' onClick={increment}>Siguiente ...</button>
           
           
       </div>

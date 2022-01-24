@@ -6,6 +6,8 @@ import { CounterWithCustonHook } from './components/01-useState/CounterWithCusto
 import { SimpleForm } from './components/02-useEffect/SimpleForm';
 import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook'; 
 import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
+import { FocusScreen } from './components/04-useRef/FocusScreen';
+import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 
 //un contador con un useState no es "directa", ya hay una forma de implementar un useCounter
 
@@ -17,6 +19,11 @@ ReactDOM.render(
     //<CounterWithCustonHook />, document.getElementById('root')
     //<SimpleForm />, document.getElementById('root')
     //<FormWithCustomHook />, document.getElementById('root')
-    <MultipleCustomHooks />, document.getElementById('root')
+    //<MultipleCustomHooks />, document.getElementById('root')
+    //<FocusScreen />, document.getElementById('root')
+    <RealExampleRef />, document.getElementById('root') 
+    
+    
+
 );
  
